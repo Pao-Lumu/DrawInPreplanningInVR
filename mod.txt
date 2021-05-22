@@ -1,0 +1,17 @@
+{
+	"name": "Draw in Preplanning in VR",
+	"description": "A fix to allow VR players to draw in the preplanning menu",
+	"author": "Pao",
+	"contact": "",
+	"version": "1.0.0",
+	"priority": 1,
+	"image" : "draw_in_pp_in_vr.png",
+	"blt_version": 2,
+	"color": "0 0 0",
+	"hooks": [
+		{
+			"hook_id": "lib/managers/menu/preplanningmapgui",
+			"script_path": "preplandrawfix.lua"
+		}
+	]
+}
