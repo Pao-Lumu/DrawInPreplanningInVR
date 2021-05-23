@@ -3,11 +3,19 @@
 	"description": "A fix to allow VR players to draw in the preplanning menu",
 	"author": "Pao",
 	"contact": "",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"priority": 1,
-	"image" : "draw_in_pp_in_vr.png",
+	"image": "draw_in_pp_in_vr.png",
 	"blt_version": 2,
 	"color": "0 0 0",
+	"updates": [
+		{
+			"identifier": "drawinppinvr",
+			"host": {
+				"meta": "https://thegrammarjew.github.io/meta.json"
+			}
+		}
+	],
 	"hooks": [
 		{
 			"hook_id": "lib/managers/menu/preplanningmapgui",
