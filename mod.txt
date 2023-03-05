@@ -3,7 +3,7 @@
 	"description": "A fix to allow VR players to draw in the preplanning menu",
 	"author": "Pao",
 	"contact": "",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"priority": 1,
 	"image": "draw_in_pp_in_vr.png",
 	"blt_version": 2,
@@ -12,7 +12,7 @@
 		{
 			"identifier": "drawinppinvr",
 			"host": {
-				"meta": "https://thegrammarjew.github.io/meta.json"
+				"meta": "https://pao-lumu.github.io/meta.json"
 			}
 		}
 	],
